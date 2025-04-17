@@ -3,60 +3,49 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Mohammed Bilal P S</title>
-  <link rel="stylesheet" href="style.css" />
+  <title>Mohammed Bilal P S | Profile</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <header>
-    <h1>Mohammed Bilal P S</h1>
-    <p>Computational Physicist | AI Researcher</p>
-    <nav>
-      <ul class="nav-menu">
-        <li><a href="#about">About Me</a></li>
-        <li><a href="#academics">Academics</a></li>
-        <li><a href="#social">Social</a></li>
-        <li><a href="#articles">Articles</a></li>
-      </ul>
-    </nav>
-  </header>
-
-  <section id="about">
-    <h2>About Me</h2>
-    <p>I am a computational physicist and AI researcher deeply enthusiastic about theoretical physics and AI applications in quantum research.</p>
-  </section>
-
-  <section id="academics">
-    <h2>Academics</h2>
+  <nav>
     <ul>
-      <li><strong>BS-MS Integrated Physics</strong>, IISER Berhampur (2019–2024)</li>
-      <li><strong>BS in Data Science</strong>, IIT Madras (2021–Ongoing)</li>
+      <li onclick="showSection('home')">🏠 <span>About Me</span></li>
+      <li onclick="showSection('academics')">📘 <span>Academics</span></li>
+      <li onclick="showSection('social')">🔗 <span>Social</span></li>
+      <li onclick="showSection('articles')">📰 <span>Articles</span></li>
     </ul>
-    <h3>Awards & Experience</h3>
-    <ul>
-      <li>I-HUB QTF Fellowship (2024)</li>
-      <li>Math Tutor (2021–Present)</li>
-      <li>SME at Six Red Marbles (2019–2021)</li>
-      <li>Neuro Imaging Internship</li>
-      <li>SME at Chegg and Photomath</li>
-    </ul>
-  </section>
+  </nav>
 
-  <section id="social">
-    <h2>Social</h2>
-    <p>Email: mohammed19@iiserbpr.ac.in</p>
-    <p>GitHub: <a href="https://github.com/geekybobz" target="_blank">geekybobz</a></p>
-    <p>LinkedIn: <a href="https://linkedin.com/in/mohammedbilalps" target="_blank">mohammedbilalps</a></p>
-  </section>
+  <div class="content">
+    <section id="home" class="active">
+      <h1>About Me</h1>
+      <p><strong>Name:</strong> Mohammed Bilal P S</p>
+      <p><strong>Title:</strong> Computational Physicist, AI Researcher</p>
+      <p>A computational physicist and AI researcher interested in theoretical physics, AI/ML in quantum physics, and quantum problem modeling using neural networks.</p>
+    </section>
 
-  <section id="articles">
-    <h2>Articles</h2>
-    <p>Expected publication of my master thesis is currently in preparation.</p>
-  </section>
+    <section id="academics">
+      <h1>Academics</h1>
+      <p><strong>BS-MS Integrated Physics</strong> - IISER Berhampur (2019–2024)</p>
+      <p><strong>BS in Data Science</strong> - IIT Madras (2021–Ongoing)</p>
+      <p><strong>Fellowship:</strong> I-HUB QTF Fellowship (2024)</p>
+      <p><strong>Experience:</strong> Math Tutor, SME roles, Neuro Imaging Internship</p>
+    </section>
 
-  <footer>
-    <p>&copy; 2025 Mohammed Bilal P S</p>
-  </footer>
+    <section id="social">
+      <h1>Social</h1>
+      <p><strong>Email:</strong> mohammed19@iiserbpr.ac.in</p>
+      <p><strong>Phone:</strong> +91 9995843641</p>
+      <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/mohammedbilalps" target="_blank">mohammedbilalps</a></p>
+      <p><strong>GitHub:</strong> <a href="https://github.com/geekybobz" target="_blank">geekybobz</a></p>
+    </section>
 
-  <script src="script.js"></script>
+    <section id="articles">
+      <h1>Articles</h1>
+      <p>Master thesis manuscript currently under preparation. Publications expected soon.</p>
+    </section>
+  </div>
+
+  <script src="scripts.js"></script>
 </body>
 </html>
