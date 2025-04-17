@@ -1,3 +1,3 @@
 document.addEventListener('DOMContentLoaded', () => {
-  console.log("Website loaded. Welcome to Mohammed's page!");
+  console.log("Navigation ready. Scroll to your section!");
 });
